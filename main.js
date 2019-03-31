@@ -41,18 +41,24 @@ window.onload = () => {
     }
 
   	function addText1() {
+		ctx.font= "60px ten-mincho";
+		ctx.textAlign="center";
   		var text1 = five1.value;
   		var fontSize = 60;
   		ctx.fillText(text1, 275, 175);
   	}
 
    	function addText2() {
+		ctx.font= "60px ten-mincho";
+		ctx.textAlign="center";
   		var text2 = seven.value;
   		var fontSize = 60;
   		ctx.fillText(text2, 275, 275);
   	}
 
    	function addText3() {
+		ctx.font= "60px ten-mincho";
+		ctx.textAlign="center";
   		var text3 = five2.value;
   		var fontSize = 60;
   		ctx.fillText(text3, 275, 375);
