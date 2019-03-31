@@ -10,8 +10,6 @@ window.onload = () => {
 	var canvasHeight = 550;
 	var TRIM_SIZE = 550;
 	var ctx = canvas.getContext("2d");
-	ctx.font= "60px ten-mincho";
-	ctx.textAlign="center";
 	
 	canvas.width = canvasWidth;
 	canvas.height = canvasHeight;
