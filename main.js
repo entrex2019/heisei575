@@ -10,8 +10,9 @@ window.onload = () => {
 	var canvasHeight = 550;
 	var TRIM_SIZE = 550;
 	var ctx = canvas.getContext("2d");
-
-
+	ctx.font= "60px ten-mincho";
+	ctx.textAlign="center";
+	
 	canvas.width = canvasWidth;
 	canvas.height = canvasHeight;
 
@@ -42,24 +43,18 @@ window.onload = () => {
   	function addText1() {
   		var text1 = five1.value;
   		var fontSize = 60;
-		ctx.font= "60px ten-mincho";
-		ctx.textAlign="center";
   		ctx.fillText(text1, 275, 175);
   	}
 
    	function addText2() {
   		var text2 = seven.value;
   		var fontSize = 60;
-		ctx.font= "60px ten-mincho";
-		ctx.textAlign="center";
   		ctx.fillText(text2, 275, 275);
   	}
 
    	function addText3() {
   		var text3 = five2.value;
   		var fontSize = 60;
-		ctx.font= "60px ten-mincho";
-		ctx.textAlign="center";
   		ctx.fillText(text3, 275, 375);
   	}
 
