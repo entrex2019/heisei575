@@ -78,6 +78,15 @@ window.onload = () => {
           var copyTarget = document.getElementById("copyTarget");
           // コピー対象のテキストを選択する
           copyTarget.select();
+		
+		
+	  var range = document.createRange();
+   	  range.selectNodeContents(copyTarget);
+    	  var sel = window.getSelection();
+          sel.removeAllRanges();
+          sel.addRange(range);
+          copyTarget.setSelectionRange(0, 999999);
+	
           // 選択しているテキストをクリップボードにコピーする
           document.execCommand("Copy");
           // コピーをお知らせする
