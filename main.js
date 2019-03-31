@@ -39,7 +39,7 @@ window.onload = () => {
     }
 
   	function addText1() {
-		ctx.font= "60px ten-mincho";
+		ctx.font= "60px Yu Mincho,YuMincho";
 		ctx.textAlign="center";
   		var text1 = five1.value;
   		var fontSize = 60;
@@ -47,7 +47,7 @@ window.onload = () => {
   	}
 
    	function addText2() {
-		ctx.font= "60px ten-mincho";
+		ctx.font= "60px Yu Mincho,YuMincho";
 		ctx.textAlign="center";
   		var text2 = seven.value;
   		var fontSize = 60;
@@ -55,7 +55,7 @@ window.onload = () => {
   	}
 
    	function addText3() {
-		ctx.font= "60px ten-mincho";
+		ctx.font= "60px Yu Mincho,YuMincho";
 		ctx.textAlign="center";
   		var text3 = five2.value;
   		var fontSize = 60;
